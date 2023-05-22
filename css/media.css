@@ -1,0 +1,160 @@
+
+@media screen and (max-width:1024px) {
+    .logo__img{
+        margin: 0 0 30px
+    }  
+
+}
+@media screen and (max-width:1080px) {
+    .why__we {
+        padding: 50px;
+
+    }
+    .contacts__email{
+        margin: 0 0 50px;
+    }
+    .contacts__telephon{
+        margin: 0 0 50px;
+    }
+
+}
+@media screen and (max-width:991px) {
+    .content{
+        gap: 15px;
+    } 
+    .content{
+        flex-wrap: wrap;
+    } 
+    .why__we{
+        margin: 0 auto;
+        max-width: 1125px;
+    }
+    .contacts{
+        margin: 0 auto;
+        max-width: 1125px;
+    }
+ 
+}
+@media screen and (max-width:788px) {
+    .header {
+        padding: 40px 0 20px;
+    }
+    .logo__img {
+        margin: 0 0 30px
+    }
+    .menu__list {
+        gap: 15px;
+        }  
+    .banner__wrap{
+        height: 311px;
+    }
+    .footer__callcentr{
+        font-size: 13px;
+        line-height: 16px
+    }
+    .footer__telephon{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+}
+.footer__wrap{
+    padding: 0 30px;
+    margin: 15px 0;
+}
+}
+@media screen and (max-width:640px) {
+    .banner__wrap{
+        height: 259px;
+    }
+    .header {
+        padding: 30px 0 15px;
+    }
+    .footer__callcentr{
+        font-size: 10px;
+        line-height: 13px
+    }
+    .footer__telephon{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+}
+@media screen and (max-width:576px) {
+    .banner__wrap{
+        height: 233px;
+    }
+    .header {
+        padding: 25px 0 15px;
+    }
+    .why__we {
+        padding: 30px;
+
+    }
+    .contacts{
+        padding: 30px;
+    }
+    body {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .contacts__telephon{
+        margin: 0 0 30px;
+    }
+    .footer__wrap{
+    padding: 0 30px;
+}
+.footer__wrap{
+    padding: 0 20px;
+    gap: 10px;
+}
+}
+
+@media screen and (max-width:480px) {
+    .logo__img{
+        margin: 0 0 30px
+    }
+    .menu__list a {
+        font-size: 14px;
+        line-height: 16px;
+}
+    .menu__list {
+    gap: 10px;
+    } 
+    .banner__wrap{
+        height: 194px;
+    }
+    .header {
+        padding: 20px 0 10px;
+    }
+    .why__we {
+        padding: 10px;
+
+    }
+    .contacts{
+        padding: 10px;
+    }
+    .footer__wrap{
+        padding: 0 10px;
+    }
+    .footer__wrap{
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column-reverse;
+    }
+    .footer__callcentr{
+        margin: 10px 0 ;
+    }
+    .footer__contacts{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .banner__wrap{
+       height: 130px;
+    }  
+    .header {
+        padding: 15px 0 10px;
+    }
+}
